@@ -1,0 +1,12 @@
+Source: ros-extendablejetty-gz-tools2
+Section: misc
+Priority: optional
+Maintainer: "Carlos Agüero" <caguero@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-extendablejetty-gz-cmake, rubocop <!nocheck>, ros-extendablejetty-ros-workspace-shell
+Homepage: https://github.com/gazebosim/gz-tools
+Standards-Version: 3.9.2
+
+Package: ros-extendablejetty-gz-tools2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-extendablejetty-gz-cmake, ruby, ros-extendablejetty-ros-workspace-shell
+Description: Gazebo Tools: Entrypoint to Gazebo's command line interface
